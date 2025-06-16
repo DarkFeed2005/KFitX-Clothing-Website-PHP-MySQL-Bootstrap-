@@ -9,3 +9,25 @@ html{
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.25);
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: linear-gradient(to top, #c72092 , #6c14d0);
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/bg1.png);
+    background-size: cover;
+    background-position: center;
+}
+
