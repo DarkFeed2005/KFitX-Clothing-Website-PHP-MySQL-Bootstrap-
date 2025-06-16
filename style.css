@@ -294,3 +294,284 @@ section .main .button:hover i{
     padding: 35px 0;
 }
 
+.about h1{
+    font-size: 60px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+.about h1 span{
+    background: linear-gradient(to right, #c72092 , #6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 15px;
+}
+
+.about .about_main{
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about .about_main .about_image{
+    display: flex;
+    margin-top: 50px;
+}
+
+.about .about_main .about_image .about_small_image{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 15px;
+}
+
+.about .about_main .about_image .about_small_image img{
+    height: 92px;
+    margin: 5px 0;
+    cursor: pointer;
+    background: linear-gradient(to right, #6c14d0 , #c72092);
+    display: block;
+    border-radius: 6px;
+    padding: 5px 5px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.6);
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.about .about_main .about_image .about_small_image img:hover{
+    opacity: 1;
+}
+
+.about .about_main .image_contaner{
+    padding: 10px;
+    display: flex;
+}
+
+.about .about_main .image_contaner img{
+    border: 3px solid #6c14d0;
+    border-radius: 20px;
+    height: 430px;
+    padding: 30px;
+    box-shadow: 0 0 8px #6c14d0;
+}
+
+.about .about_main .about_text{
+    margin-top: 45px;
+}
+
+.about .about_main .about_text p{
+    background: linear-gradient(to left, #c72092 , #6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 22px;
+    width: 600px;
+    text-align: justify;
+    padding: 25px 30px;
+    border: 2px solid #c72092;
+    border-radius: 20px;
+    box-shadow: 0 0 8px #c72092;
+}
+
+.about .about_btn{
+    color: black;
+    background: none;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 10px 25px;
+    border: 2px solid #c72092;
+    text-decoration: none;
+    box-shadow: 0 0 8px #c72092;
+    transition: 0.5s;
+}
+
+.about .about_btn:hover{
+    border: 2px solid transparent;
+    background: #c72092;
+    color: white;
+}
+
+
+/*Review*/
+
+.review{
+    width: 100%;
+    height: 100vh;
+    padding-top: 80px;
+}
+
+.review h1{
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.review h1 span{
+    background: linear-gradient(to left, #c72092 , #6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 15px;    
+}
+
+.review .review_box{
+    width: 95%;
+    position: relative;
+    top: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.review .profile .profile_image{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.review .profile .profile_image:hover{
+    transform: scale(1.2);
+}
+
+.review .profile_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.review .profile{
+    display: flex;
+    align-items: center;
+}
+
+.review .review_box .review_card{
+    width: 500px;
+    background: #f3f1f1;
+    padding: 20px 25px;
+    border-radius: 5px;
+    margin: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.review .review_box .review_card .card_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review .review_box .review_card .card_top .profile .name{
+    margin-left: 20px;
+    line-height: 22px;
+}
+
+.review .review_box .review_card .card_top .profile .name strong{
+    font-size: 20px;
+}
+
+.review .review_box .review_card .card_top .profile .name .like i{
+    color: orange;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.review .review_box .review_card .comment p{
+    text-align: justify;
+    line-height: 22px;
+    margin-top: 15px;
+}
+
+
+/*Services*/
+
+.services{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 0 10px 0;
+}
+
+.services h1{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.services h1 span{
+    margin-left: 15px;
+    background: linear-gradient(to left, #c72092 , #6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+
+.services .services_cards{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
+}
+
+.services .services_box i{
+    font-size: 60px;
+    color: orange;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.services .services_box h3{
+    margin-bottom: 12px;
+    font-size: 19px;
+}
+
+.services .services_box p{
+    text-align: center;
+    color: #919191;
+    margin-bottom: 60px;
+}
+
+
+/*Login Form*/
+
+.login_form{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(image/loging_bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.login_form .left img{
+    width: 650px;
+}
+
+.login_form .right{
+    position: relative;
+    top: -50px;
+    left: -60px;
+    padding: 50px 80px;
+}
+
