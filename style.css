@@ -225,3 +225,72 @@ section .main .button:hover i{
     cursor: pointer;
     opacity: 1;
 }
+
+.products .box .card .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products .box .card .image img{
+    width: 150px;
+    margin: 15px 0;
+    transition: 0.3s;
+}
+
+.products .box .card:hover .image img{
+    transform: scale(1.1);
+}
+
+.products .box .card .small_card i{
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 2px 0;
+    line-height: 40px;
+    border: 2px solid #999999;
+    transition: 0.2s;
+}
+
+.products .box .card .small_card i:hover{
+    color: #c72092;
+}
+
+.products .box .card .products_text h2{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.products .box .card .products_text p{
+    color: #91919191;
+    line-height: 21px;
+    margin: 8px 0;
+}
+
+.products .box .card .products_text h3{
+    margin: 7px 0;
+}
+
+.products .box .card .products_text .products_star{
+    color: orange;
+    margin-bottom: 19px;
+    cursor: pointer;
+}
+
+.products .box .card .products_text .btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #c72092 , #6c14d0);
+    color: white;
+}
+
+
+/*About*/
+
+.about{
+    width: 100%;
+    height: 100vh;
+    padding: 35px 0;
+}
+
