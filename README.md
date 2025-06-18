@@ -5,10 +5,12 @@ KFitX Clothing Website is a stylish and modern online store designed to showcase
 
 <p align="center">
 <a href="https://www.w3schools.com/html/" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=html" alt="html" width="70" height="70"/> </a> 
-<a href="#" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=css" alt="css" width="70" height="70"/> </a>
 <a href="#" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=js" alt="javascript" width="70" height="70"/> </a>
-  <a href="#" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=boostrap" alt="tailwindcss" width="70" height="70"/> </a>
+<a href="#" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=bootstrap" alt="bootstrap" width="70" height="70"/> </a>
+<a href="#" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=php" alt="php" width="70" height="70"/> </a>
+<a href="#" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=mysql" alt="mysql" width="70" height="70"/> </a>
 </p>
+
 
 ## 🔥 Features
 
@@ -26,10 +28,10 @@ KFitX Clothing Website is a stylish and modern online store designed to showcase
 Clone the repository :
 
 ```sh
-git clone https://github.com/DarkFeed2005/Modern-Portfolio-Website-Dynamic-Responsive-HTML-CSS-JS.git
+git clone https://github.com/DarkFeed2005/KFitX-Clothing-Website-PHP-MySQL-Bootstrap-.git
 ```
 ```bash
-cd portfolio-website
+cd Clothing-Website
 ```
 
 
