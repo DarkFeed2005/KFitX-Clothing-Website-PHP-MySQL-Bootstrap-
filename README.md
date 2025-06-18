@@ -1,4 +1,4 @@
-# 🚀 # KFitX-Clothing-Website-PHP-MySQL-Bootstrap
+# 🚀KFitX-Clothing-Website-PHP-MySQL-Bootstrap
 
 KFitX Clothing Website is a stylish and modern online store designed to showcase and sell fashion apparel. Built using PHP, MySQL, Bootstrap, HTML,CSS and JS it offers a sleek, responsive user interface with easy navigation, dynamic product displays, and secure checkout functionality. Users can browse trendy outfits, add items to their cart, and complete purchases seamlessly. The backend ensures efficient inventory management, user authentication, and order processing, making KFitX a reliable and engaging shopping experience
 
